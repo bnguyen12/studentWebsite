@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Droid Serif';
+  src: url(DroidSerif.ttf)
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+h1 {
+  pointer-events: none;
+  user-select: none;
+  position: relative;
+  text-align: center;
+  font-size: 50pt;
+  color: #B2B6EF;
+  font-family: 'Droid Serif', 'Segoe UI', sans-serif;
+}
+
+span {
+  font-weight: lighter;
+  color: #424670;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  box-shadow: 10px 10px #353A75;
+  background-color: #D6D7E6;
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  z-index: 1;
+}
+
+canvas {
+  background: linear-gradient(to bottom right, #7C7FAB, #353A75);
+  position: fixed;
+}
